@@ -1,21 +1,12 @@
 {
-    "manifest_version": 2,
-    "name": "Rasmus Pandekage",
-    "version": "0.1",
-    "icons": {
-        "64": "icons/pandekage_icon_64.png",
-        "128": "icons/pandekage_icon_128.png",
-        "256": "icons/pandekage_icon_256.png"
-    },
-    "browser_action": {
-        "default_icon": "icons/pandekage_icon_256.png"
-    },
-    "content_scripts": [
-        {
-            "matches": [
-        "<all_urls>"
-      ],
-            "js": ["palukage.js"]
+  "name": "Search and replace Putin with Donald Duck",
+  "description": "Search and replace with Donald Duck.",
+  "version": "0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
     }
   ]
 }
