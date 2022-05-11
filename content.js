@@ -26,6 +26,12 @@ function replaceText (node) {
     }, {
       search: 'missil',
       replace: 'kosteskaft',
+    }, {
+      search: 'russer',
+      replace: 'andebyer',
+    }, {
+      search: 'russisk',
+      replace: 'andebysk',
     },
   ];
 
